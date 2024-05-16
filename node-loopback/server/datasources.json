@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "loopback_demo": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://postgresadmin:postgresadmin@localhost/loopback_demo",
+    "database": "loopback_demo",
+    "password": "postgresadmin",
+    "name": "loopback_demo",
+    "user": "postgresadmin",
+    "connector": "postgresql"
+  }
+}

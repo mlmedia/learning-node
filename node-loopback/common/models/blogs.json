@@ -1,0 +1,35 @@
+{
+	"name": "blogs",
+	"plural": "blogs",
+	"base": "PersistedModel",
+	"idInjection": true,
+	"options": {
+		"validateUpsert": true
+	},
+	"properties": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"author": {
+			"type": "string",
+			"required": true
+		},
+		"creationDate": {
+			"type": "date"
+		},
+		"body": {
+			"type": "string"
+		},
+		"tags": {
+			"type": "string"
+		},
+		"updateDate": {
+			"type": "date"
+		}
+	},
+	"validations": [],
+	"relations": {},
+	"acls": [],
+	"methods": {}
+}
